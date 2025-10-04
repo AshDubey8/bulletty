@@ -31,4 +31,4 @@ nav:
     - Contributing: 'contributing.md'
   - Docs:
     - Reference: 'docs/reference.md'
-    - Changelog: 'changelog.md'
+    - Changelog: 'docs/changelog.md'

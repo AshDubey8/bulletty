@@ -2,8 +2,9 @@
 title: Changelog
 ---
 
-## nightly 2025-10-04
+# nightly 2025-10-04
 
+- 322d469 docs: add automatic changelog generation
 - ff2b052 docs: expand script to generate all version tags
 - 8b5be60 docs: add basic changelog generation script
 - 82faad3 docs: add manual changelog template
@@ -14,7 +15,7 @@ title: Changelog
 - db2c27b adding more info about how to contribute
 - db7da86 adding prebuild binary links to README and Install page
 
-## v0.1.7
+# v0.1.7
 
 - cfdb8fa bumping version to 0.1.7
 - 7e7ae0e formatting code
@@ -31,7 +32,7 @@ title: Changelog
 - 251d8db Merge branch 'main' into dependabot/cargo/toml-0.9.7
 - 7599daa Bump toml from 0.9.6 to 0.9.7
 
-## v0.1.6
+# v0.1.6
 
 - 2d7b6ee bumping to version 0.1.6
 - 27e6f4f fix README description of data directory
@@ -51,7 +52,7 @@ title: Changelog
 - 47834af Bump toml from 0.9.5 to 0.9.6
 - 9136663 Bump tempfile from 3.21.0 to 3.22.0
 
-## v0.1.5
+# v0.1.5
 
 - ddbe6ac bumping to version 0.1.5
 - 4c7d678 trimming feed title
@@ -65,13 +66,13 @@ title: Changelog
 - bf374e7 minor changes to contributing and readme
 - 0047c9b adding CONTRIBUTING.md file; added to site too
 
-## v0.1.4
+# v0.1.4
 
 - 3e220fe bumping to version 0.1.4
 - 6573fe0 formatting code
 - 819a420 opening links on the browser
 
-## v0.1.3
+# v0.1.3
 
 - 602642b bumping to version 0.1.3
 - 72163da improving a bit more the behaviour of the reader scroll
@@ -79,7 +80,7 @@ title: Changelog
 - aad8a08 fixing reader scrollbar. it's still not perfect, but mostly good
 - fcde543 fixing issue with inconsistent line breaks on entries
 
-## v0.1.2
+# v0.1.2
 
 - c47331e bumping version to 0.1.2
 - 237b968 adding rustdock-md to the automatic site generation
