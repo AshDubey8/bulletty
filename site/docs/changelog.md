@@ -2,16 +2,240 @@
 title: Changelog
 ---
 
-# nightly 2025-10-04
+## nightly 2025-10-04
 
-- Test entry
-- Another test
+- 8b5be60 docs: add basic changelog generation script
+- 82faad3 docs: add manual changelog template
+- 10e1ebf fixing README lint
+- c3d070b improving contributing instructions
+- 1dd2ebd Merge pull request #49 from tanmayc07/fix/feedparser-root
+- 4ec3ddc fix: remove flawed if blocks in feedparser
+- db2c27b adding more info about how to contribute
+- db7da86 adding prebuild binary links to README and Install page
 
-# v0.1.4
+## v0.1.7
 
-- Some feature
-- Bug fix
+- cfdb8fa bumping version to 0.1.7
+- 7e7ae0e formatting code
+- 4f41336 fixing some colors on different terminal emulators
+- 152c550 Merge pull request #46 from CrociDB/dependabot/cargo/serde-1.0.228
+- 7bdb8ac Merge pull request #45 from CrociDB/dependabot/cargo/regex-1.11.3
+- a2901c4 Merge pull request #44 from CrociDB/dependabot/cargo/tempfile-3.23.0
+- c13fc7f removing lib, since it wasn't necessary
+- d55c64f fixing entry list width
+- e249c0d Bump serde from 1.0.226 to 1.0.228
+- 25bf452 Bump regex from 1.11.2 to 1.11.3
+- 78b67a8 Bump tempfile from 3.22.0 to 3.23.0
+- 36cfdf6 Merge pull request #41 from CrociDB/dependabot/cargo/toml-0.9.7
+- 251d8db Merge branch 'main' into dependabot/cargo/toml-0.9.7
+- 7599daa Bump toml from 0.9.6 to 0.9.7
 
-# v0.1.3
+## v0.1.6
 
-- Old stuff
+- 2d7b6ee bumping to version 0.1.6
+- 27e6f4f fix README description of data directory
+- de821dd changing README feature display
+- c7ade6e removing outdated comment
+- 295f329 Merge pull request #42 from CrociDB/dependabot/cargo/clap-4.5.48
+- 86042a7 Merge pull request #43 from CrociDB/dependabot/cargo/serde-1.0.226
+- 5a2b6b7 adjusting screen instructions
+- c2781f6 fixing url and help popup sizes
+- b15a84e Bump serde from 1.0.225 to 1.0.226
+- b4f615d Bump clap from 4.5.47 to 4.5.48
+- 1ae120f Merge pull request #32 from CrociDB/dependabot/cargo/serde-1.0.224
+- a94cafa Bump serde from 1.0.219 to 1.0.224
+- a1168de Merge pull request #33 from CrociDB/dependabot/cargo/tempfile-3.22.0
+- c8e8ee9 Merge pull request #34 from CrociDB/dependabot/cargo/toml-0.9.6
+- c2d3c59 site: new theme and fixed reference
+- 47834af Bump toml from 0.9.5 to 0.9.6
+- 9136663 Bump tempfile from 3.21.0 to 3.22.0
+
+## v0.1.5
+
+- ddbe6ac bumping to version 0.1.5
+- 4c7d678 trimming feed title
+- b98dab0 adding scrollbar to entry list
+- 7202e9d changing reader scrollbar color to be less bright
+- c2c8d39 removing debug tracing
+- 55b020a fix #36: better dealing with HTTP errors
+- 430f8a6 fix #37: File name too long error when updating feeds
+- 5356565 updating screenshot gif
+- 63bcc9b adding usage to README.md
+- bf374e7 minor changes to contributing and readme
+- 0047c9b adding CONTRIBUTING.md file; added to site too
+
+## v0.1.4
+
+- 3e220fe bumping to version 0.1.4
+- 6573fe0 formatting code
+- 819a420 opening links on the browser
+
+## v0.1.3
+
+- 602642b bumping to version 0.1.3
+- 72163da improving a bit more the behaviour of the reader scroll
+- 4aa874d adding navigation beginning and end to the reader
+- aad8a08 fixing reader scrollbar. it's still not perfect, but mostly good
+- fcde543 fixing issue with inconsistent line breaks on entries
+
+## v0.1.2
+
+- c47331e bumping version to 0.1.2
+- 237b968 adding rustdock-md to the automatic site generation
+- 063f279 fixing an edge case where two types of links are passed in feed entry
+- 06687c9 defaulting author to feed title, when not defined
+- 3d91c07 adding url to reader screen; changed color of entries
+- ef64f4c Merge pull request #24 from CrociDB/dependabot/github_actions/actions/checkout-5
+- 6ca8a4d Merge pull request #22 from CrociDB/dependabot/github_actions/actions/setup-python-6
+- db04ffe Merge pull request #20 from CrociDB/dependabot/cargo/tracing-subscriber-0.3.20
+- b70a431 Merge pull request #21 from CrociDB/dependabot/cargo/clap-4.5.47
+- ca81669 Merge pull request #25 from CrociDB/dependabot/github_actions/clechasseur/rs-clippy-check-5
+- 7ce97f5 Merge pull request #26 from CrociDB/dependabot/github_actions/actions/upload-pages-artifact-4
+- e876cb6 Merge pull request #23 from CrociDB/dependabot/cargo/chrono-0.4.42
+- 57a525b Bump chrono from 0.4.41 to 0.4.42
+- 9b6c1ad bumping version to 0.1.1
+- b995b02 bumping version
+- aa7fbd4 Bump actions/upload-pages-artifact from 3 to 4
+- 0cd1edb Bump clechasseur/rs-clippy-check from 4 to 5
+- 9366293 Bump actions/checkout from 4 to 5
+- 99981d4 Bump actions/setup-python from 5 to 6
+- db0ce97 Bump clap from 4.5.46 to 4.5.47
+- 0b86400 Bump tracing-subscriber from 0.3.19 to 0.3.20
+- 388e9bb removing automatic doc file
+- b9eb5ef adding correct url to the site
+- 729f214 creating a venv for uv
+- 9b06358 fixing uv syncing
+- 20a60ac deploying site
+- 82aaa3e adding repo url to the site
+- 2925f24 adding admonition to site
+- b897979 adding rustdoc to the site
+- 1e7ae04 creating bulletty site with mkdocs
+- 1d11fd0 updating README
+- f597729 adding repo to Cargo.toml
+- e74f6c5 setting all items in a category as read
+- ebb9fea going to beginning and end of the list
+- 3d94a82 adding toggle seen state
+- fbcb704 adding the default trait implementation to some of the structs, thanks clippy
+- 5e82a8f testing feed library
+- aaf0561 displaying full instructions on help
+- 2e7a1f9 changing screen structs to have screen names rather than state
+- ecf37b6 separating dialog from appscreen
+- bdca81c renaming AppState to AppScreen
+- 3ecf583 formatting some files
+- af1a482 reorganizing source structure and fixing some warnings
+- 835c98a adding basic support for popup screens and basic help screen
+- ab7e647 Merge pull request #14 from CrociDB/dependabot/cargo/toml-0.9.5
+- c3d2fd2 Merge pull request #17 from CrociDB/dependabot/cargo/clap-4.5.45
+- b696b42 Bump toml from 0.9.2 to 0.9.5
+- deb5f10 Bump clap from 4.5.41 to 4.5.45
+- f3f2568 Merge pull request #16 from CrociDB/dependabot/github_actions/actions/checkout-5
+- 10a1cd5 Merge pull request #18 from CrociDB/dependabot/cargo/reqwest-0.12.23
+- d0df6bb Merge pull request #19 from CrociDB/dependabot/cargo/regex-1.11.2
+- edffef1 Bump regex from 1.11.1 to 1.11.2
+- 9c275b4 Bump reqwest from 0.12.22 to 0.12.23
+- a70bdfe Bump actions/checkout from 4 to 5
+- 2f77084 fixed author fetching for entries
+- b8e5cd2 adding entry author tests; still failing
+- 288aa97 getting author from feed entry
+- 4451048 removing comments and formatting everything
+- 00f4a5b adding tests to feed parse; fixing author fetching
+- 1ad509e adding tests to feedparser, fixing date parsing
+- 7286884 updating screenshot
+- b87bf51 updating README with new feature plan
+- 3f78697 fixed blinking ui on terminal; improved colors
+- c67bfd3 Merge pull request #9 from CrociDB/dependabot/cargo/reqwest-0.12.22
+- 6920ebc Merge branch 'main' into dependabot/cargo/reqwest-0.12.22
+- 1e5561d Merge pull request #10 from CrociDB/dependabot/cargo/clap-4.5.41
+- 59c8ad5 Merge pull request #11 from CrociDB/dependabot/cargo/toml-0.9.2
+- f75d6fc improving readability of librarydata module
+- 3cf65bc Bump toml from 0.8.23 to 0.9.2
+- 2202be2 Bump clap from 4.5.40 to 4.5.41
+- 656fc91 updated screenshot with new features
+- 8addf90 saving seen feed entries
+- 730bf58 Bump reqwest from 0.12.21 to 0.12.22
+- 03980d8 getting unread entries from feeds
+- 55a6c9f fixing formatting
+- b84be64 added seen property to feed entry
+- 39bae8d adding last updated date and time for feeds and entries
+- ae4ff7c fixed issues when opening the UI without any feed added
+- 7d2509b simplifying updater
+- 8cae4fa updating screenshot
+- 95b64dc basic UI updater
+- 07c4cc3 improved statusline layout
+- b6e4017 adding status display
+- fa81bf5 Merge pull request #8 from CrociDB/dependabot/cargo/reqwest-0.12.21
+- bb1659c fix main feed tree and feed entry list selection bug
+- a7ddedd updating instruction texts on main screen
+- 16c6d49 adding state instructions
+- 1c2539b adding state instructions
+- b09c32f fixing config's formatting
+- 47be13c adding logging
+- 25d7c41 fixing formatting and warnings
+- 9b778af fix typo on README
+- f1c709b updating README
+- 06671a5 adding a screenshot and updating README
+- b0ef11f fix an issue retrieving the markdown feed
+- 8b36f26 Bump reqwest from 0.12.20 to 0.12.21
+- 55401b0 reader page; scroll still weird
+- e1ab6a0 creating new app states (reader) with proper feed entry
+- 5950022 creating AppStateEvents, to make the states communicate with the app
+- f75f1d4 adding statusline
+- 8ad7fdd improved state
+- 65214d5 simplifying list state creation
+- 2af6987 refactoring even further and removing own selection
+- 6767389 bringing liststate into feedentrystate
+- 17f4b30 refactoring feedtree state
+- b1d6da4 refactoring FeedEntryList to support scrolling
+- 6263e03 added one more type of date format
+- 7b24069 fixing the theme colors
+- 9e4f100 further improving theme with nerdfonts
+- d7c8522 improving the visual theme
+- 0878ee4 loading, serializing, sorting and displaying date
+- 442a5ba basic entry list selection
+- ee5aa03 Merge pull request #7 from CrociDB/dependabot/cargo/reqwest-0.12.20
+- b799adf display entries from categories too
+- ac439f6 updating readme with feature information
+- 5decf50 adding one forgotten type of horizontal rule in markdown stripping process
+- 71414d5 Bump reqwest from 0.12.19 to 0.12.20
+- a33525a fixed markdown on description
+- 29ebb56 improving a bit the style of the feed entry list
+- dfe2489 fetching feed entries
+- 594631f moving feed tree logic to another struct
+- 7367a18 adding feed entry list
+- dfa22eb updating readme with accomplished features
+- 20f54a0 description and content are markdown now
+- 51a9b3f parsing html to md
+- bab9037 saving feed entries
+- fccb52e Merge pull request #4 from CrociDB/dependabot/cargo/clap-4.5.40
+- c6f65ee Bump clap from 4.5.39 to 4.5.40
+- 41cae96 Merge pull request #5 from CrociDB/dependabot/cargo/toml-0.8.23
+- a4f3e87 Merge branch 'main' into dependabot/cargo/toml-0.8.23
+- 498f903 Merge pull request #6 from CrociDB/dependabot/cargo/dirs-6.0.0
+- ac39cc4 reorganizing modules, fixing warnings and buttons
+- d97d438 changing state in main reader state
+- f4c0c3e adding feed with category
+- 5133d19 listing the registered feeds
+- dc87bec Bump dirs from 5.0.1 to 6.0.0
+- c005ff4 Bump toml from 0.8.22 to 0.8.23
+- 37c0552 creating feed structure. still ignoring the categories though
+- 7883ad6 switching for vendored openssl
+- 2c843d7 parsing feed item by xml
+- d99a3e2 feed add structure
+- d012154 adding cli commands
+- a10fa13 create basic data folder
+- 1033ce9 Merge pull request #3 from CrociDB/dependabot/cargo/color-eyre-0.6.5
+- 7ac9f7b Bump color-eyre from 0.6.4 to 0.6.5
+- 7a53269 creating and reading config file
+- 5ed8560 wip work on library
+- 3f2e7cb separating feed category
+- 37e6787 fixing some formatting
+- 5cf0be1 basic feed category selection
+- 93aaa78 adding feed library and basic list generation
+- c32a246 reorganizing ui module with basic feedtree widget
+- 08951e6 organizing app and appstate
+- 49fe107 Merge pull request #2 from CrociDB/dependabot/cargo/crossterm-0.29.0
+- 54536c4 Merge pull request #1 from CrociDB/dependabot/github_actions/clechasseur/rs-clippy-check-4
+- 9a9cccb Bump crossterm from 0.28.1 to 0.29.0
+- db336c9 Bump clechasseur/rs-clippy-check from 3 to 4
+- b35fa6f first commit
+
