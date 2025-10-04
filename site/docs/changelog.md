@@ -4,6 +4,7 @@ title: Changelog
 
 ## nightly 2025-10-04
 
+- ff2b052 docs: expand script to generate all version tags
 - 8b5be60 docs: add basic changelog generation script
 - 82faad3 docs: add manual changelog template
 - 10e1ebf fixing README lint
