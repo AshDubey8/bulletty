@@ -108,6 +108,4 @@ I am very open for contributions to help make **bulletty** the best feed reader 
 
 Copyright (c) Bruno Croci
 
-This project is licensed under the MIT license ([LICENSE] or <http://opensource.org/licenses/MIT>)
-
-[LICENSE]: ./LICENSE
+This project is licensed under the MIT license. See [LICENSE](https://github.com/CrociDB/bulletty/blob/main/LICENSE) or <http://opensource.org/licenses/MIT>
